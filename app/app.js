@@ -6,22 +6,22 @@
 document.getElementById('loginButton').onclick = function() {
   // require.ensure, динамическая подгрузка
 
-  require.ensure(['./login'], function(require) {
+  require.ensure([], function(require) {
 
     let login = require('./login');
 
     login();
-  });
+  }, 'auth');
 
 };
 
 document.getElementById('logout').onclick = function() {
-  require.ensure(['./logout'], function(require) {
+  require.ensure([], function(require) {
 
     let logout = require('./logout');
 
     logout();
-  });
+  }, 'auth');
 
 
 };
