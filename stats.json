@@ -1,0 +1,496 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "1.15.0",
+  "hash": "a085fb41337543f66287",
+  "time": 501,
+  "publicPath": "",
+  "assetsByChunkName": {
+    "about": "about.js",
+    "home": "home.js",
+    "common": "common.js"
+  },
+  "assets": [
+    {
+      "name": "about.js",
+      "size": 1149,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "about"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "home.js",
+      "size": 1233,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "home"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "common.js",
+      "size": 10916,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "common"
+      ],
+      "emitted": true
+    }
+  ],
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "extraAsync": false,
+      "size": 391,
+      "names": [
+        "about"
+      ],
+      "files": [
+        "about.js"
+      ],
+      "hash": "d574f1bbf1d6ae22ce50",
+      "parents": [
+        2
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/about.js",
+          "name": "./about.js",
+          "index": 0,
+          "index2": 3,
+          "size": 391,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "profile": {
+            "factory": 325,
+            "building": 83,
+            "dependencies": 42
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "source": "/**\n * Created by buchenkowa on 20.04.17.\n */\n\n'use strict';\n\nvar _interopRequireDefault = require('babel-runtime/helpers/interop-require-default')['default'];\n\nvar _welcome = require('./welcome');\n\nvar _welcome2 = _interopRequireDefault(_welcome);\n\n(0, _welcome2['default'])('About Page!');\n\nexports.welcome = _welcome2['default']; // экспорт welcome для досупа у welcome из html (например)"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/about.js",
+          "moduleIdentifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/about.js",
+          "moduleName": "./about.js",
+          "loc": "",
+          "name": "about",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "extraAsync": false,
+      "size": 435,
+      "names": [
+        "home"
+      ],
+      "files": [
+        "home.js"
+      ],
+      "hash": "abbef8bc0ade0cfa87d6",
+      "parents": [
+        2
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/home.js",
+          "name": "./home.js",
+          "index": 4,
+          "index2": 4,
+          "size": 435,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "issuer": null,
+          "profile": {
+            "factory": 18,
+            "building": 378
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "source": "/**\n * Created by buchenkowa on 20.04.17.\n */\n\n'use strict';\n\nvar _interopRequireDefault = require('babel-runtime/helpers/interop-require-default')['default'];\n\nvar _welcome = require('./welcome');\n\nvar _welcome2 = _interopRequireDefault(_welcome);\n\n(0, _welcome2['default'])('Hello!');\n(0, _welcome2['default'])('Hello, my friend !');\n\nexports.welcome = _welcome2['default']; // экспорт welcome для досупа у welcome из html (например)"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/home.js",
+          "moduleIdentifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/home.js",
+          "moduleName": "./home.js",
+          "loc": "",
+          "name": "home",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 551,
+      "names": [
+        "common"
+      ],
+      "files": [
+        "common.js"
+      ],
+      "hash": "e32745d681350be56428",
+      "parents": [],
+      "modules": [
+        {
+          "id": 1,
+          "identifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/node_modules/babel-runtime/helpers/interop-require-default.js",
+          "name": "../~/babel-runtime/helpers/interop-require-default.js",
+          "index": 1,
+          "index2": 1,
+          "size": 70,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "assets": [],
+          "issuer": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/home.js",
+          "profile": {
+            "factory": 58,
+            "building": 7
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/home.js",
+              "module": "./home.js",
+              "moduleName": "./home.js",
+              "type": "cjs require",
+              "userRequest": "babel-runtime/helpers/interop-require-default",
+              "loc": "7:29-85"
+            },
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/about.js",
+              "module": "./about.js",
+              "moduleName": "./about.js",
+              "type": "cjs require",
+              "userRequest": "babel-runtime/helpers/interop-require-default",
+              "loc": "7:29-85"
+            }
+          ],
+          "source": "\"use strict\";\n\nmodule.exports = require(\"./interopRequireDefault.js\");"
+        },
+        {
+          "id": 2,
+          "identifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/node_modules/babel-runtime/helpers/interopRequireDefault.js",
+          "name": "../~/babel-runtime/helpers/interopRequireDefault.js",
+          "index": 2,
+          "index2": 0,
+          "size": 148,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "assets": [],
+          "issuer": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/node_modules/babel-runtime/helpers/interop-require-default.js",
+          "profile": {
+            "factory": 3,
+            "building": 10
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/node_modules/babel-runtime/helpers/interop-require-default.js",
+              "module": "../~/babel-runtime/helpers/interop-require-default.js",
+              "moduleName": "../~/babel-runtime/helpers/interop-require-default.js",
+              "type": "cjs require",
+              "userRequest": "./interopRequireDefault.js",
+              "loc": "3:17-54"
+            }
+          ],
+          "source": "\"use strict\";\n\nexports.__esModule = true;\n\nexports[\"default\"] = function (obj) {\n  return obj && obj.__esModule ? obj : {\n    \"default\": obj\n  };\n};"
+        },
+        {
+          "id": 3,
+          "identifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/welcome.js",
+          "name": "./welcome.js",
+          "index": 3,
+          "index2": 2,
+          "size": 333,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "assets": [],
+          "issuer": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/home.js",
+          "profile": {
+            "factory": 20,
+            "building": 38
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/home.js",
+              "module": "./home.js",
+              "moduleName": "./home.js",
+              "type": "cjs require",
+              "userRequest": "./welcome",
+              "loc": "9:15-35"
+            },
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/about.js",
+              "module": "./about.js",
+              "moduleName": "./about.js",
+              "type": "cjs require",
+              "userRequest": "./welcome",
+              "loc": "9:15-35"
+            }
+          ],
+          "source": "/**\n * Created by buchenkowa on 20.04.17.\n */\n\n'use strict';\n\nObject.defineProperty(exports, '__esModule', {\n  value: true\n});\n\nexports['default'] = function (message) {\n\n  if (NODE_ENV == 'development') {\n    console.log('For development ' + message);\n  }\n\n  console.log('Say ' + message);\n};\n\n;\nmodule.exports = exports['default'];"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/about.js",
+      "name": "./about.js",
+      "index": 0,
+      "index2": 3,
+      "size": 391,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "profile": {
+        "factory": 325,
+        "building": 83,
+        "dependencies": 42
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "source": "/**\n * Created by buchenkowa on 20.04.17.\n */\n\n'use strict';\n\nvar _interopRequireDefault = require('babel-runtime/helpers/interop-require-default')['default'];\n\nvar _welcome = require('./welcome');\n\nvar _welcome2 = _interopRequireDefault(_welcome);\n\n(0, _welcome2['default'])('About Page!');\n\nexports.welcome = _welcome2['default']; // экспорт welcome для досупа у welcome из html (например)"
+    },
+    {
+      "id": 0,
+      "identifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/home.js",
+      "name": "./home.js",
+      "index": 4,
+      "index2": 4,
+      "size": 435,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "issuer": null,
+      "profile": {
+        "factory": 18,
+        "building": 378
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "source": "/**\n * Created by buchenkowa on 20.04.17.\n */\n\n'use strict';\n\nvar _interopRequireDefault = require('babel-runtime/helpers/interop-require-default')['default'];\n\nvar _welcome = require('./welcome');\n\nvar _welcome2 = _interopRequireDefault(_welcome);\n\n(0, _welcome2['default'])('Hello!');\n(0, _welcome2['default'])('Hello, my friend !');\n\nexports.welcome = _welcome2['default']; // экспорт welcome для досупа у welcome из html (например)"
+    },
+    {
+      "id": 1,
+      "identifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/node_modules/babel-runtime/helpers/interop-require-default.js",
+      "name": "../~/babel-runtime/helpers/interop-require-default.js",
+      "index": 1,
+      "index2": 1,
+      "size": 70,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "assets": [],
+      "issuer": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/home.js",
+      "profile": {
+        "factory": 58,
+        "building": 7
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/home.js",
+          "module": "./home.js",
+          "moduleName": "./home.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/interop-require-default",
+          "loc": "7:29-85"
+        },
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/about.js",
+          "module": "./about.js",
+          "moduleName": "./about.js",
+          "type": "cjs require",
+          "userRequest": "babel-runtime/helpers/interop-require-default",
+          "loc": "7:29-85"
+        }
+      ],
+      "source": "\"use strict\";\n\nmodule.exports = require(\"./interopRequireDefault.js\");"
+    },
+    {
+      "id": 2,
+      "identifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/node_modules/babel-runtime/helpers/interopRequireDefault.js",
+      "name": "../~/babel-runtime/helpers/interopRequireDefault.js",
+      "index": 2,
+      "index2": 0,
+      "size": 148,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "assets": [],
+      "issuer": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/node_modules/babel-runtime/helpers/interop-require-default.js",
+      "profile": {
+        "factory": 3,
+        "building": 10
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/node_modules/babel-runtime/helpers/interop-require-default.js",
+          "module": "../~/babel-runtime/helpers/interop-require-default.js",
+          "moduleName": "../~/babel-runtime/helpers/interop-require-default.js",
+          "type": "cjs require",
+          "userRequest": "./interopRequireDefault.js",
+          "loc": "3:17-54"
+        }
+      ],
+      "source": "\"use strict\";\n\nexports.__esModule = true;\n\nexports[\"default\"] = function (obj) {\n  return obj && obj.__esModule ? obj : {\n    \"default\": obj\n  };\n};"
+    },
+    {
+      "id": 3,
+      "identifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/welcome.js",
+      "name": "./welcome.js",
+      "index": 3,
+      "index2": 2,
+      "size": 333,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "assets": [],
+      "issuer": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/home.js",
+      "profile": {
+        "factory": 20,
+        "building": 38
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/home.js",
+          "module": "./home.js",
+          "moduleName": "./home.js",
+          "type": "cjs require",
+          "userRequest": "./welcome",
+          "loc": "9:15-35"
+        },
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "/home/buchenkowa/projects/webpack/node_modules/babel-loader/index.js?optional[]=runtime!/home/buchenkowa/projects/webpack/app/about.js",
+          "module": "./about.js",
+          "moduleName": "./about.js",
+          "type": "cjs require",
+          "userRequest": "./welcome",
+          "loc": "9:15-35"
+        }
+      ],
+      "source": "/**\n * Created by buchenkowa on 20.04.17.\n */\n\n'use strict';\n\nObject.defineProperty(exports, '__esModule', {\n  value: true\n});\n\nexports['default'] = function (message) {\n\n  if (NODE_ENV == 'development') {\n    console.log('For development ' + message);\n  }\n\n  console.log('Say ' + message);\n};\n\n;\nmodule.exports = exports['default'];"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}

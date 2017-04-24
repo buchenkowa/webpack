@@ -4,9 +4,9 @@
 
 'use strict';
 
-const welcome = require('./welcome.js');
+import welcome from './welcome';
 
 welcome('Hello!');
-welcome('Hello, my friend !');
+
 
 exports.welcome = welcome; // экспорт welcome для досупа у welcome из html (например)
