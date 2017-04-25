@@ -3,25 +3,37 @@
  */
 
 
-document.getElementById('loginButton').onclick = function() {
-  // require.ensure, динамическая подгрузка
+//динамическая подгрузка
 
-  require.ensure([], function(require) {
+//document.getElementById('loginButton').onclick = function() {
+//  // require.ensure, динамическая подгрузка
+//
+//  require.ensure([], function(require) {
+//
+//    let login = require('./login');
+//
+//    login();
+//  }, 'auth');
+//
+//};
+//
+//document.getElementById('logout').onclick = function() {
+//  require.ensure([], function(require) {
+//
+//    let logout = require('./logout');
+//
+//    logout();
+//  }, 'auth');
+//};
 
-    let login = require('./login');
 
-    login();
-  }, 'auth');
+// условный require
 
-};
+let moduleName = location.pathname.slice(1); // приложение получает url, и оно решает, какой модуль подгрузить
 
-document.getElementById('logout').onclick = function() {
-  require.ensure([], function(require) {
+let route = require('./routes' + moduleName);
+// автоматическая генерация контекста требует строгой структуры именно в таком виде:
+// префикс + произвольное выражение + суффикс
+// любое другое выражение, например function, возвращающая путь будет черным ящиком для webpack, будет подключать из текущей директории
 
-    let logout = require('./logout');
-
-    logout();
-  }, 'auth');
-
-
-};
+route();
